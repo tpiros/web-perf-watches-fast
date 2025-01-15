@@ -1,4 +1,4 @@
-const HOST = `https://webperf-start.netlify.app`;
+const HOST = `https://webperf-finish.netlify.app`;
 // const HOST = `http://localhost:3000`;
 document.addEventListener('DOMContentLoaded', async () => {
   const cartIcon = document.getElementById('cartIcon');

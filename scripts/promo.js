@@ -1,4 +1,4 @@
-const HOST = `https://webperf-start.netlify.app`;
+const HOST = `https://webperf-finish.netlify.app`;
 // const HOST = `${HOST}`;
 window.addEventListener('DOMContentLoaded', async () => {
   const productList = await fetch(`${HOST}/api/products`);
