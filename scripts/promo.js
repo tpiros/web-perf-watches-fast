@@ -1,6 +1,4 @@
-const HOST = `https://webperf-finish.netlify.app`;
-// const HOST = `http://localhost:3000`;
-window.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', async () => {
   const productList = await fetch(`${HOST}/api/products`);
   const products = await productList.json();
   const promoProduct = products.find((product) => product.isPromo);
