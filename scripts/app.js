@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const cartBadge = document.getElementById('cartBadge');
 
     const cartItems = await getCartItems();
-    console.log({ cartItems });
     if (cartItems.length > 0) {
       cartBadge.style.display = 'flex';
       cartBadge.textContent = cartItems.length;
